@@ -1,0 +1,57 @@
+/* Estilo da seção de notícias */
+.news-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Título da seção */
+#title-news-section {
+    font-size: calc(40px + 2vmin);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contêiner de lista de notícias */
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    /* Distribui os cards de maneira uniforme */
+}
+
+/* Cada card de notícia */
+.news-card {
+    flex-basis: 49%;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 70px;
+    min-height: 300px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1200px) {
+    .news-card {
+        flex-basis: 100%;
+        /* Ocupa a linha toda em telas menores */
+    }
+}
+
+.news-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.news-card h3 {
+    font-size: calc(25px + 2vmin);
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    font-size: 30px;
+    text-align: justify;
+}
