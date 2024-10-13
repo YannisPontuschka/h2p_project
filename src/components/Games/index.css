@@ -1,6 +1,5 @@
 
 .games-section {
-    width: 90%;
     min-height: 500px;
 }
 
@@ -21,10 +20,11 @@
     max-width: 400px;
     height: auto;
     min-height: 600px;
-    position: relative;
     /* Para o hover-text ficar sobre a imagem */
-    overflow: hidden;
+    position: relative;
+    
     /* Garante que a imagem não vaze do card */
+    overflow: hidden;
 }
 
 .game-card img {
@@ -52,12 +52,16 @@
 }
 
 .game-card:hover .hover-text {
+    color:white;
     opacity: 1;
     /* Mostra o texto no hover */
 }
 
 /* Responsividade */
 @media (max-width: 1800px) {
+    .games-list{
+        margin: 0 30px;
+    }
     .game-card {
         flex-basis: 50%;
         max-width: 50%;
@@ -68,7 +72,6 @@
     .game-card {
         flex-basis: 100%;
         max-width: 100%;
-        padding: 20px;
         min-height: 300px;
     }
 }
