@@ -1,25 +1,39 @@
+#logo {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  width: 270px;
+  height: 270px;
+}
 
 .header-section {
-    width: 100%;
+  width: 100%;
 }
 
 .header-section h1 {
-    font-size: 100px;
-    margin-bottom: 0;
-    margin-top: 100px;
+  font-size: 100px;
+  margin-top: 30px;
 }
 
-
 .header-section #slogan {
-    margin-bottom: 50px;
-    font-size: calc(20px + 2vmin);
+  margin-bottom: 50px;
+  font-size: calc(20px + 2vmin);
 }
 
 .header-section #description {
-    margin: 20px 0px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
-    font-style: italic;
-    font-size: calc(30px + 2vmin);
+  margin: 20px 0px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-style: italic;
+  font-size: calc(30px + 2vmin);
+}
+
+@media (max-width: 1300px) {
+  #logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+  }
 }

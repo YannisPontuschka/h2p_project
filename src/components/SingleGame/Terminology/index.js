@@ -1,34 +1,7 @@
 import React, { useState } from "react";
 import "./index.css"; // Estilos
 
-const terminologies = [
-  {
-    term: "Ult Tracking",
-    text: "Ult Tracking é uma técnica utilizada para acompanhar o status de ultimates em jogos competitivos.",
-  },
-  {
-    term: "Scout",
-    text: "Scout se refere a explorar e obter informações antecipadas sobre o oponente ou o ambiente.",
-  },
-  {
-    term: "Triggers",
-    text: "Triggers são eventos ou ações específicas que acionam uma resposta no jogo, como habilidades.",
-  },
-  {
-    term: "Ult Tracking",
-    text: "Ult Tracking é uma técnica utilizada para acompanhar o status de ultimates em jogos competitivos.",
-  },
-  {
-    term: "Scout",
-    text: "Scout se refere a explorar e obter informações antecipadas sobre o oponente ou o ambiente.",
-  },
-  {
-    term: "Triggers",
-    text: "Triggers são eventos ou ações específicas que acionam uma resposta no jogo, como habilidades.",
-  },
-];
-
-function Terminology() {
+function Terminology({ terminologies }) {
   const [selectedTerm, setSelectedTerm] = useState(null); // Estado para o termo selecionado
 
   const handleClick = (term) => {
@@ -40,8 +13,8 @@ function Terminology() {
   };
 
   return (
-      <div className="game-terminology-section">
-          <h2 className="title">Terminologia</h2>
+    <div className="game-terminology-section">
+      <h2 className="title">Terminologia</h2>
       <div className="terminology-list">
         {terminologies.map((game_term) => (
           <div
@@ -54,7 +27,6 @@ function Terminology() {
         ))}
       </div>
 
-      {/* Em JavaScript, a expressão A && B retorna B se A for verdadeiro (ou um valor considerado "truthy"). Caso contrário, retorna A. */}
       {/* Pop-up */}
       {selectedTerm && (
         <div className="popup-overlay" onClick={closePopup}>

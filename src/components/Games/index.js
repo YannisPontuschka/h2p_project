@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import { games_list } from "./games_list";
+import { games_list } from "../data/games_list";
 import { Link } from "react-router-dom"; // Importando Link
 
 function Games() {

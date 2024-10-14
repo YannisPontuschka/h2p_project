@@ -7,7 +7,7 @@ export const news_list = [
   {
     title: "CS2 Major em Breve",
 
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum urna vel magna pellentesque, at convallis ligula aliquet. Donec eu purus at diam porttitor congue. Sed quis turpis dapibus, sagittis justo eget, hendrerit diam. Vivamus arcu nunc, egestas at porta id, tempor sed sem. Cras vel convallis nisi. Nulla dignissim ante in ullamcorper rhoncus. In varius ipsum eget ex gravida, quis suscipit quam maximus.",
+    text: "A comunidade de Counter-Strike 2 está em polvorosa com o anúncio de um novo Major programado para o próximo mês. Com equipes de todo o mundo se preparando para competir, os fãs esperam por um torneio repleto de ação, com prêmios substanciais e a oportunidade de ver seus jogadores favoritos em ação. Os detalhes sobre a localização e os times participantes ainda são mantidos em segredo, mas a expectativa está nas alturas.",
 
     image: cs2news,
   },
@@ -15,7 +15,7 @@ export const news_list = [
   {
     title: "Blizzard denunciada por corrupção",
 
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum urna vel magna pellentesque, at convallis ligula aliquet. Donec eu purus at diam porttitor congue. Sed quis turpis dapibus, sagittis justo eget, hendrerit diam. Vivamus arcu nunc, egestas at porta id, tempor sed sem. Cras vel convallis nisi. Nulla dignissim ante in ullamcorper rhoncus. In varius ipsum eget ex gravida, quis suscipit quam maximus.",
+    text: "A Blizzard Entertainment enfrenta uma onda de acusações de corrupção, com ex-funcionários denunciando práticas antiéticas que envolveriam a manipulação de resultados de jogos e a distribuição injusta de bônus. A situação levantou preocupações sobre a transparência dentro da empresa e levou a um clamor por uma investigação mais aprofundada por parte das autoridades. A Blizzard ainda não se pronunciou oficialmente sobre as alegações, mas a comunidade está em alerta.",
 
     image: blizzardnews,
   },
@@ -23,7 +23,7 @@ export const news_list = [
   {
     title: "Última chance para ser beta tester",
 
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum urna vel magna pellentesque, at convallis ligula aliquet. Donec eu purus at diam porttitor congue. Sed quis turpis dapibus, sagittis justo eget, hendrerit diam. Vivamus arcu nunc, egestas at porta id, tempor sed sem. Cras vel convallis nisi. Nulla dignissim ante in ullamcorper rhoncus. In varius ipsum eget ex gravida, quis suscipit quam maximus.",
+    text: "Os desenvolvedores de um aguardado título de videogame anunciaram que estão em busca de beta testers para sua fase final de testes. Os interessados têm até o final da semana para se inscrever, garantindo uma oportunidade única de experimentar o jogo antes do lançamento oficial. Os selecionados terão a chance de fornecer feedback valioso e ajudar a moldar a versão final do título, que promete ser um marco na indústria.",
 
     image: betatesternews,
   },
@@ -31,7 +31,7 @@ export const news_list = [
   {
     title: "Rumores de lançamento do PS6",
 
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rutrum urna vel magna pellentesque, at convallis ligula aliquet. Donec eu purus at diam porttitor congue. Sed quis turpis dapibus, sagittis justo eget, hendrerit diam. Vivamus arcu nunc, egestas at porta id, tempor sed sem. Cras vel convallis nisi. Nulla dignissim ante in ullamcorper rhoncus. In varius ipsum eget ex gravida, quis suscipit quam maximus.",
+    text: "Os rumores sobre o lançamento do PlayStation 6 começaram a circular nas redes sociais, com insiders da indústria afirmando que a Sony pode estar planejando revelar a nova console em um evento especial no próximo ano. As especulações incluem detalhes sobre potenciais recursos inovadores e melhorias gráficas que poderiam revolucionar a experiência de jogo. Enquanto a comunidade aguarda ansiosamente, a Sony ainda não confirmou ou desmentiu os rumores.",
 
     image: ps6news,
   },

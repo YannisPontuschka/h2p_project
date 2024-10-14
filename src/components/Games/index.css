@@ -22,12 +22,14 @@
     min-height: 600px;
     /* Para o hover-text ficar sobre a imagem */
     position: relative;
+    box-shadow: 0 40px 18px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
     
     /* Garante que a imagem não vaze do card */
     overflow: hidden;
 }
 
 .game-card img {
+
     width: 100%;
     height: 100%;
     object-fit: cover;
