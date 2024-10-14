@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ddb17a82.css",
-    "main.js": "/static/js/main.a70bd3b6.js",
-    "static/js/453.63caf6bc.chunk.js": "/static/js/453.63caf6bc.chunk.js",
-    "static/media/cs2.jpeg": "/static/media/cs2.bc44264216149f785560.jpeg",
-    "static/media/valorant.jpg": "/static/media/valorant.4a47dea07132d8a0848a.jpg",
-    "static/media/LOL.png": "/static/media/LOL.2cb663dadafc1a750429.png",
-    "static/media/h2p.png": "/static/media/h2p.a69159b1f5e8ad868cfb.png",
-    "static/media/cs2-championship.jpeg": "/static/media/cs2-championship.72ba3238e9ec6ecfadae.jpeg",
-    "static/media/overwatch.png": "/static/media/overwatch.e8a9f562c76ddaa0aa99.png",
-    "static/media/betatester.png": "/static/media/betatester.1c40d4631b6144d5a169.png",
-    "static/media/ps6.png": "/static/media/ps6.f832fce2f202d94d31c2.png",
-    "index.html": "/index.html",
-    "main.ddb17a82.css.map": "/static/css/main.ddb17a82.css.map",
-    "main.a70bd3b6.js.map": "/static/js/main.a70bd3b6.js.map",
-    "453.63caf6bc.chunk.js.map": "/static/js/453.63caf6bc.chunk.js.map"
+    "main.css": "/h2p_project/static/css/main.ddb17a82.css",
+    "main.js": "/h2p_project/static/js/main.40860ae8.js",
+    "static/js/453.63caf6bc.chunk.js": "/h2p_project/static/js/453.63caf6bc.chunk.js",
+    "static/media/cs2.jpeg": "/h2p_project/static/media/cs2.bc44264216149f785560.jpeg",
+    "static/media/valorant.jpg": "/h2p_project/static/media/valorant.4a47dea07132d8a0848a.jpg",
+    "static/media/LOL.png": "/h2p_project/static/media/LOL.2cb663dadafc1a750429.png",
+    "static/media/h2p.png": "/h2p_project/static/media/h2p.a69159b1f5e8ad868cfb.png",
+    "static/media/cs2-championship.jpeg": "/h2p_project/static/media/cs2-championship.72ba3238e9ec6ecfadae.jpeg",
+    "static/media/overwatch.png": "/h2p_project/static/media/overwatch.e8a9f562c76ddaa0aa99.png",
+    "static/media/betatester.png": "/h2p_project/static/media/betatester.1c40d4631b6144d5a169.png",
+    "static/media/ps6.png": "/h2p_project/static/media/ps6.f832fce2f202d94d31c2.png",
+    "index.html": "/h2p_project/index.html",
+    "main.ddb17a82.css.map": "/h2p_project/static/css/main.ddb17a82.css.map",
+    "main.40860ae8.js.map": "/h2p_project/static/js/main.40860ae8.js.map",
+    "453.63caf6bc.chunk.js.map": "/h2p_project/static/js/453.63caf6bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddb17a82.css",
-    "static/js/main.a70bd3b6.js"
+    "static/js/main.40860ae8.js"
   ]
 }
