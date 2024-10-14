@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/h2p_project/static/css/main.ddb17a82.css",
-    "main.js": "/h2p_project/static/js/main.40860ae8.js",
+    "main.js": "/h2p_project/static/js/main.ae6dbc48.js",
     "static/js/453.63caf6bc.chunk.js": "/h2p_project/static/js/453.63caf6bc.chunk.js",
     "static/media/cs2.jpeg": "/h2p_project/static/media/cs2.bc44264216149f785560.jpeg",
     "static/media/valorant.jpg": "/h2p_project/static/media/valorant.4a47dea07132d8a0848a.jpg",
@@ -13,11 +13,11 @@
     "static/media/ps6.png": "/h2p_project/static/media/ps6.f832fce2f202d94d31c2.png",
     "index.html": "/h2p_project/index.html",
     "main.ddb17a82.css.map": "/h2p_project/static/css/main.ddb17a82.css.map",
-    "main.40860ae8.js.map": "/h2p_project/static/js/main.40860ae8.js.map",
+    "main.ae6dbc48.js.map": "/h2p_project/static/js/main.ae6dbc48.js.map",
     "453.63caf6bc.chunk.js.map": "/h2p_project/static/js/453.63caf6bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddb17a82.css",
-    "static/js/main.40860ae8.js"
+    "static/js/main.ae6dbc48.js"
   ]
 }
