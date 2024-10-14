@@ -1,14 +1,14 @@
 {
-  "short_name": "How2Play",
+  "short_name": "React App",
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "h2p.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "h2p.png",
+      "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
