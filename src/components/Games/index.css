@@ -4,7 +4,7 @@
 }
 
 .games-section #game_section_title {
-    font-size: 60px;
+        font-size: calc(40px + 2vmin);
 }
 
 .games-list {
@@ -39,6 +39,7 @@
 }
 
 .hover-text {
+    hyphens: none;
     position: absolute;
     top: 50%;
     left: 50%;

@@ -1,34 +1,36 @@
-.courses-list {
+.courses-section .courses-list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
-.course-card {
+.courses-section .course-card {
   display: flex;
   width: 45%;
   margin: 10px;
   height: 300px;
 }
-
-.course-signature {
+.courses-section .course-link {
+  text-decoration: none; 
+  color: inherit; 
+  border: 3px solid;
+  width: 50%;
+  padding: 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 50%;
-  padding: 10px;
-  border: 3px solid;
 }
 
-.course-signature h3 {
+
+.courses-section .course-link h3 {
   font-size: 30px;
   font-weight: 500;
 }
-.course-signature h4 {
+.courses-section .course-link h4 {
   font-size: 20px;
   font-style: italic;
 }
 
-#course-description {
+.courses-section #course-description {
   width: 50%;
   display: flex;
   align-items: center;
@@ -38,24 +40,24 @@
 }
 
 @media (max-width: 1600px) {
-  .course-card {
+  .courses-section .course-card {
     width: 100%;
     justify-content: center;
   }
 
-  #course-description {
+  .courses-section #course-description {
     margin: 0 10px;
   }
 }
 
 @media (max-width: 750px) {
-  .course-card {
+  .courses-section .course-card {
     border: 3px solid;
   }
-  .course-signature {
+  .courses-section .course-link {
     border: 0;
   }
-  #course-description {
+  .courses-section #course-description {
     font-size: 20px;
   }
 }
