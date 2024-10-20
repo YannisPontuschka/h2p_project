@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/h2p_project/static/css/main.ca5e000c.css",
-    "main.js": "/h2p_project/static/js/main.6b222587.js",
+    "main.css": "/h2p_project/static/css/main.bb1a3a47.css",
+    "main.js": "/h2p_project/static/js/main.c31971ab.js",
     "static/js/453.63caf6bc.chunk.js": "/h2p_project/static/js/453.63caf6bc.chunk.js",
     "static/media/cs2.jpeg": "/h2p_project/static/media/cs2.bc44264216149f785560.jpeg",
     "static/media/valorant.jpg": "/h2p_project/static/media/valorant.4a47dea07132d8a0848a.jpg",
@@ -12,12 +12,12 @@
     "static/media/betatester.png": "/h2p_project/static/media/betatester.1c40d4631b6144d5a169.png",
     "static/media/ps6.png": "/h2p_project/static/media/ps6.f832fce2f202d94d31c2.png",
     "index.html": "/h2p_project/index.html",
-    "main.ca5e000c.css.map": "/h2p_project/static/css/main.ca5e000c.css.map",
-    "main.6b222587.js.map": "/h2p_project/static/js/main.6b222587.js.map",
+    "main.bb1a3a47.css.map": "/h2p_project/static/css/main.bb1a3a47.css.map",
+    "main.c31971ab.js.map": "/h2p_project/static/js/main.c31971ab.js.map",
     "453.63caf6bc.chunk.js.map": "/h2p_project/static/js/453.63caf6bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca5e000c.css",
-    "static/js/main.6b222587.js"
+    "static/css/main.bb1a3a47.css",
+    "static/js/main.c31971ab.js"
   ]
 }
