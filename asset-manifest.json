@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/h2p_project/static/css/main.aac9f058.css",
-    "main.js": "/h2p_project/static/js/main.c52e58cf.js",
+    "main.css": "/h2p_project/static/css/main.c84037b6.css",
+    "main.js": "/h2p_project/static/js/main.f62b6dab.js",
     "static/js/453.63caf6bc.chunk.js": "/h2p_project/static/js/453.63caf6bc.chunk.js",
     "static/media/cs2.jpeg": "/h2p_project/static/media/cs2.bc44264216149f785560.jpeg",
     "static/media/valorant.jpg": "/h2p_project/static/media/valorant.4a47dea07132d8a0848a.jpg",
@@ -13,12 +13,12 @@
     "static/media/overwatch.png": "/h2p_project/static/media/overwatch.e8a9f562c76ddaa0aa99.png",
     "static/media/ps6.png": "/h2p_project/static/media/ps6.f832fce2f202d94d31c2.png",
     "index.html": "/h2p_project/index.html",
-    "main.aac9f058.css.map": "/h2p_project/static/css/main.aac9f058.css.map",
-    "main.c52e58cf.js.map": "/h2p_project/static/js/main.c52e58cf.js.map",
+    "main.c84037b6.css.map": "/h2p_project/static/css/main.c84037b6.css.map",
+    "main.f62b6dab.js.map": "/h2p_project/static/js/main.f62b6dab.js.map",
     "453.63caf6bc.chunk.js.map": "/h2p_project/static/js/453.63caf6bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aac9f058.css",
-    "static/js/main.c52e58cf.js"
+    "static/css/main.c84037b6.css",
+    "static/js/main.f62b6dab.js"
   ]
 }
