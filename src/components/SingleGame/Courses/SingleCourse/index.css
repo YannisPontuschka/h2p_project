@@ -115,6 +115,7 @@
 }
 
 .step_description #details {
+  width: 40%;
   margin-left: 20px;
 }
 

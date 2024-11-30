@@ -13,8 +13,6 @@ function SingleCourse() {
   const [currentVideo, setCurrentVideo] = useState(course?.steps[0].url || "");
   const [activeStep, setActiveStep] = useState(1);
   const [newComment, setNewComment] = useState("");
-
-  // Estado para os comentários
   const [comments, setComments] = useState(() => {
     const savedComments =
       JSON.parse(
@@ -44,14 +42,17 @@ function SingleCourse() {
         JSON.stringify(comments)
       );
     }
+    console.log(
+      course.steps[activeStep - 1].comments.concat(comments[activeStep])
+    );
   }, [comments, courseId]);
 
   const addComment = () => {
     if (newComment.trim() === "") return;
 
     const newCommentObject = {
-      id: Date.now(),
       text: newComment,
+      response: "",
     };
 
     const updatedComments = {
@@ -96,14 +97,18 @@ function SingleCourse() {
           <div className="discussion">
             <h2 id="title">Discussão - Etapa {activeStep}</h2>
             <div className="comments">
-              {(comments[activeStep] || []).map((comment) => (
-                <div key={comment.id} className="comment">
+              {(
+                course.steps[activeStep - 1].comments.concat(
+                  comments[activeStep] || []
+                ) || []
+              ).map((comment) => (
+                <div className="comment">
                   <div className="user-question">
-                    <strong>Pergunta:</strong> {comment.text}
+                    <strong>Pergunta:</strong> {comment?.text}
                   </div>
                   <div className="author-response">
-                    <strong>Resposta de {course?.author.name}:</strong> Sem
-                    resposta ainda
+                    <strong>Resposta de {course?.author.name}:</strong>{" "}
+                    {comment?.response || "Sem resposta ainda."}
                   </div>
                 </div>
               ))}
