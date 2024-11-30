@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/h2p_project/static/css/main.bb1a3a47.css",
-    "main.js": "/h2p_project/static/js/main.c31971ab.js",
+    "main.css": "/h2p_project/static/css/main.aac9f058.css",
+    "main.js": "/h2p_project/static/js/main.c52e58cf.js",
     "static/js/453.63caf6bc.chunk.js": "/h2p_project/static/js/453.63caf6bc.chunk.js",
     "static/media/cs2.jpeg": "/h2p_project/static/media/cs2.bc44264216149f785560.jpeg",
     "static/media/valorant.jpg": "/h2p_project/static/media/valorant.4a47dea07132d8a0848a.jpg",
     "static/media/LOL.png": "/h2p_project/static/media/LOL.2cb663dadafc1a750429.png",
+    "static/media/pocket-bravery.jpg": "/h2p_project/static/media/pocket-bravery.778b63fd259cd9220f50.jpg",
     "static/media/h2p.png": "/h2p_project/static/media/h2p.a69159b1f5e8ad868cfb.png",
+    "static/media/yax.jpg": "/h2p_project/static/media/yax.2924d350a5d45616e694.jpg",
     "static/media/cs2-championship.jpeg": "/h2p_project/static/media/cs2-championship.72ba3238e9ec6ecfadae.jpeg",
     "static/media/overwatch.png": "/h2p_project/static/media/overwatch.e8a9f562c76ddaa0aa99.png",
-    "static/media/betatester.png": "/h2p_project/static/media/betatester.1c40d4631b6144d5a169.png",
     "static/media/ps6.png": "/h2p_project/static/media/ps6.f832fce2f202d94d31c2.png",
     "index.html": "/h2p_project/index.html",
-    "main.bb1a3a47.css.map": "/h2p_project/static/css/main.bb1a3a47.css.map",
-    "main.c31971ab.js.map": "/h2p_project/static/js/main.c31971ab.js.map",
+    "main.aac9f058.css.map": "/h2p_project/static/css/main.aac9f058.css.map",
+    "main.c52e58cf.js.map": "/h2p_project/static/js/main.c52e58cf.js.map",
     "453.63caf6bc.chunk.js.map": "/h2p_project/static/js/453.63caf6bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb1a3a47.css",
-    "static/js/main.c31971ab.js"
+    "static/css/main.aac9f058.css",
+    "static/js/main.c52e58cf.js"
   ]
 }
