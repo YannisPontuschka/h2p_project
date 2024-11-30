@@ -2,8 +2,9 @@
   position: absolute;
   left: 5%;
   top: 5%;
-  width: 270px;
-  height: 270px;
+  width: 240px;
+  height: 240px;
+  background-color: rgba(19, 16, 18, 0.421);
 }
 
 .header-section {

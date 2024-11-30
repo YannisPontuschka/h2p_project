@@ -11,6 +11,7 @@ function News() {
             <h3>{news.title}</h3>
             <img src={news.image} alt={news.title} />
             <p className="news-card-content">{news.text}</p>
+            <p style={{fontStyle:'italic'}}>Fonte: {news.source}</p>
           </div>
         ))}
       </div>

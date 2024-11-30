@@ -1,10 +1,12 @@
+import { authors } from "./how2players";
+
 export const ow_courses = [
   {
     id: 1,
     theme: "Como ganhar espaço como um pro player",
     description:
       "Aprenda as táticas de movimentação e controle de mapa usadas pelos profissionais para dominar o campo de batalha e garantir o espaço necessário para seu time avançar.",
-    author: "Yax",
+    author: authors[0],
     steps: [
       {
         description: "Introdução ao controle de espaço em mapas",
@@ -25,7 +27,7 @@ export const ow_courses = [
     theme: "Melhorando sua mira e precisão",
     description:
       "Descubra técnicas de treino e sensibilidade para melhorar sua precisão e mira, tornando você uma ameaça constante para seus oponentes.",
-    author: "AimGuru",
+    author: authors[0],
     steps: [
       {
         description: "Dicas práticas para melhorar a mira em jogos FPS",
@@ -46,7 +48,7 @@ export const ow_courses = [
     theme: "Noções básicas de ult tracking",
     description:
       "Entenda como prever e controlar as ultimates do inimigo para obter vantagem nas lutas de equipe e coordenar melhor com seu time.",
-    author: "UltMaster",
+    author: authors[0],
     steps: [
       {
         description: "O que é ult tracking e por que é importante?",
@@ -67,7 +69,7 @@ export const ow_courses = [
     theme: "Estratégias de flanking para heróis de DPS",
     description:
       "Explore os melhores heróis e caminhos para flanquear com segurança, surpreendendo o time inimigo e criando oportunidades de eliminação.",
-    author: "FlankXpert",
+    author: authors[0],
     steps: [
       {
         description: "Escolhendo o herói certo para flanquear",
@@ -88,7 +90,7 @@ export const ow_courses = [
     theme: "Melhorando sua sinergia de equipe",
     description:
       "Saiba como coordenar habilidades e posicionamento com seu time para maximizar a eficiência e controle do mapa em todas as situações.",
-    author: "TeamPlay",
+    author: authors[0],
     steps: [
       {
         description: "Fundamentos da comunicação eficaz em equipe",
@@ -109,7 +111,7 @@ export const ow_courses = [
     theme: "Domine os suportes: Carregando com healing",
     description:
       "Aprenda a ser um suporte dominante que não só cura seu time, mas também faz jogadas cruciais para garantir a vitória.",
-    author: "HealerPro",
+    author: authors[0],
     steps: [
       {
         description: "Os fundamentos do healing em jogos de equipe",
@@ -133,19 +135,23 @@ export const cs_courses = [
     theme: "Fundamentos de mira e precisão",
     description:
       "Aprimore sua mira com técnicas de treino e estratégias que os profissionais usam para garantir tiros mais precisos em situações de combate.",
-    author: "AimingPro",
+    author: authors[1],
     steps: [
       {
         description: "Introdução à precisão e controle de mira",
-        url: "https://www.youtube.com/embed/V0FZqYD57Hk?si=4gFwkCnUshrVLg9M",
+        url: "https://www.youtube.com/embed/bJ1Flcla3SE?si=PSYqAfAm_Jzr9Ogs",
       },
       {
         description: "Técnicas de treino para melhorar reflexos e mira",
-        url: "https://www.youtube.com/embed/IfnXZTHVQuc?si=JYKvFzBc2ZmSZNX7",
+        url: "https://www.youtube.com/embed/bJ1Flcla3SE?si=PSYqAfAm_Jzr9Ogs",
       },
       {
         description: "Ajustando configurações para maximizar sua precisão",
-        url: "https://www.youtube.com/embed/ZIiEwZO1hUk?si=rrHCS_9NURfGxfjm",
+        url: "https://www.youtube.com/embed/bJ1Flcla3SE?si=PSYqAfAm_Jzr9Ogs",
+      },
+      {
+        description: "Ajustando configurações para maximizar sua precisão",
+        url: "https://www.youtube.com/embed/bJ1Flcla3SE?si=PSYqAfAm_Jzr9Ogs",
       },
     ],
   },
@@ -154,24 +160,27 @@ export const cs_courses = [
     theme: "Estratégias de posicionamento no mapa",
     description:
       "Aprenda a se posicionar corretamente em mapas diferentes para maximizar suas chances de sobrevivência e impacto no jogo.",
-    author: "MapMaster",
+    author: authors[1],
     steps: [
       {
-        description: "Fundamentos de posicionamento em mapas",
-        url: "https://www.youtube.com/embed/V0FZqYD57Hk?si=4gFwkCnUshrVLg9M",
+        description: "Introdução à precisão e controle de mira",
+        url: "https://www.youtube.com/embed/bJ1Flcla3SE?si=PSYqAfAm_Jzr9Ogs",
       },
       {
-        description: "Como identificar e dominar ângulos estratégicos",
-        url: "https://www.youtube.com/embed/IfnXZTHVQuc?si=JYKvFzBc2ZmSZNX7",
+        description: "Técnicas de treino para melhorar reflexos e mira",
+        url: "https://www.youtube.com/embed/bJ1Flcla3SE?si=PSYqAfAm_Jzr9Ogs",
       },
       {
-        description: "Planejando rotações eficazes em diferentes situações",
-        url: "https://www.youtube.com/embed/ZIiEwZO1hUk?si=rrHCS_9NURfGxfjm",
+        description: "Ajustando configurações para maximizar sua precisão",
+        url: "https://www.youtube.com/embed/bJ1Flcla3SE?si=PSYqAfAm_Jzr9Ogs",
+      },
+      {
+        description: "Ajustando configurações para maximizar sua precisão",
+        url: "https://www.youtube.com/embed/bJ1Flcla3SE?si=PSYqAfAm_Jzr9Ogs",
       },
     ],
   },
 ];
-
 
 export const lol_courses = [
   {
@@ -179,19 +188,31 @@ export const lol_courses = [
     theme: "Como farmar como um profissional",
     description:
       "Descubra as melhores práticas de farming para maximizar seu ouro e crescer mais rápido em suas partidas.",
-    author: "FarmMaster",
+    author: authors[2],
     steps: [
       {
         description: "Técnicas básicas de farming para iniciantes",
-        url: "https://www.youtube.com/embed/V0FZqYD57Hk?si=4gFwkCnUshrVLg9M",
+        url: "https://www.youtube.com/embed/E2Rj2gQAyPA?si=Q3Awh6aTpZSAhBuU",
       },
       {
         description: "Como gerenciar ondas de minions de forma eficiente",
-        url: "https://www.youtube.com/embed/IfnXZTHVQuc?si=JYKvFzBc2ZmSZNX7",
+        url: "https://www.youtube.com/embed/5FrhtahQiRc?si=vcukjpSbPIi0V9_e",
       },
       {
         description: "Avançando: Farming sob pressão e controle de lane",
+        url: "https://www.youtube.com/embed/E2Rj2gQAyPA?si=Q3Awh6aTpZSAhBuU",
+      },
+      {
+        description: "Como gerenciar ondas de minions de forma eficiente",
         url: "https://www.youtube.com/embed/ZIiEwZO1hUk?si=rrHCS_9NURfGxfjm",
+      },
+      {
+        description: "Avançando: Farming sob pressão e controle de lane",
+        url: "https://www.youtube.com/embed/rhTZTy1rZhw?si=exUmdwvTPkdCawKF",
+      },
+      {
+        description: "Técnicas profissionais de farming",
+        url: "https://www.youtube.com/embed/ZHhqwBwmRkI?si=SU3rshUsWVOK1Dmh",
       },
     ],
   },
@@ -200,7 +221,7 @@ export const lol_courses = [
     theme: "Map Awareness: A chave para a vitória",
     description:
       "Aprenda a ler o mapa e prever os movimentos do inimigo para evitar ganks e ajudar seu time com informação valiosa.",
-    author: "MapWise",
+    author: authors[2],
     steps: [
       {
         description: "Introdução à leitura de mapa e visão",
@@ -221,7 +242,7 @@ export const lol_courses = [
     theme: "Estratégias de team fight",
     description:
       "Entenda como posicionar-se e usar suas habilidades corretamente durante lutas em equipe para garantir a vitória.",
-    author: "TeamFightKing",
+    author: authors[2],
     steps: [
       {
         description: "Noções básicas de formação de team fight",
@@ -242,7 +263,7 @@ export const lol_courses = [
     theme: "Controle de visão: Wards e mais",
     description:
       "Saiba como e onde colocar wards para maximizar a visão e controlar o mapa de forma eficaz.",
-    author: "VisionExpert",
+    author: authors[2],
     steps: [
       {
         description: "Conceitos básicos de visão e tipos de wards",
@@ -263,7 +284,7 @@ export const lol_courses = [
     theme: "Aprendendo os campeões: A arte do match-up",
     description:
       "Explore os match-ups entre campeões e como tirar vantagem sobre seu oponente com picks inteligentes.",
-    author: "ChampionMaster",
+    author: authors[2],
     steps: [
       {
         description: "Introdução aos match-ups e counters básicos",
@@ -284,7 +305,7 @@ export const lol_courses = [
     theme: "Como escalar para ranks mais altos",
     description:
       "Dicas e truques sobre como escalar nas ranqueadas e melhorar suas chances de alcançar seu rank desejado.",
-    author: "RankedGuru",
+    author: authors[2],
     steps: [
       {
         description: "Noções básicas para progredir nos elos",
@@ -308,11 +329,20 @@ export const valorant_courses = [
     theme: "Dominando as habilidades dos agentes",
     description:
       "Aprenda a usar as habilidades de cada agente de forma eficaz para maximizar seu impacto nas partidas.",
-    author: "AgentMaster",
+    author: authors[3],
     steps: [
-      "https://www.youtube.com/embed/V0FZqYD57Hk?si=4gFwkCnUshrVLg9M", // Vídeo da Etapa 1
-      "https://www.youtube.com/embed/IfnXZTHVQuc?si=JYKvFzBc2ZmSZNX7", // Vídeo da Etapa 2
-      "https://www.youtube.com/embed/ZIiEwZO1hUk?si=rrHCS_9NURfGxfjm", // Vídeo da Etapa 3
+      {
+        description: "Psicologia e consistência para melhorar no competitivo",
+        url: "https://www.youtube.com/embed/2GYFXj9CVjs?si=LJpj6ABGqS2kaaDb",
+      },
+      {
+        description: "Psicologia e consistência para melhorar no competitivo",
+        url: "https://www.youtube.com/embed/2GYFXj9CVjs?si=LJpj6ABGqS2kaaDb",
+      },
+      {
+        description: "Psicologia e consistência para melhorar no competitivo",
+        url: "https://www.youtube.com/embed/2GYFXj9CVjs?si=LJpj6ABGqS2kaaDb",
+      },
     ],
   },
   {
@@ -320,7 +350,7 @@ export const valorant_courses = [
     theme: "Táticas de ataque e defesa",
     description:
       "Entenda as melhores táticas de ataque e defesa em cada mapa para se destacar em seu time.",
-    author: "TacticGuru",
+    author: authors[3],
     steps: [
       "https://www.youtube.com/embed/V0FZqYD57Hk?si=4gFwkCnUshrVLg9M", // Vídeo da Etapa 1
       "https://www.youtube.com/embed/IfnXZTHVQuc?si=JYKvFzBc2ZmSZNX7", // Vídeo da Etapa 2
@@ -332,7 +362,7 @@ export const valorant_courses = [
     theme: "Comunicação e trabalho em equipe",
     description:
       "Explore a importância da comunicação e como trabalhar em equipe pode mudar o rumo de uma partida.",
-    author: "TeamPlayer",
+    author: authors[3],
     steps: [
       "https://www.youtube.com/embed/V0FZqYD57Hk?si=4gFwkCnUshrVLg9M", // Vídeo da Etapa 1
       "https://www.youtube.com/embed/IfnXZTHVQuc?si=JYKvFzBc2ZmSZNX7", // Vídeo da Etapa 2
@@ -344,7 +374,7 @@ export const valorant_courses = [
     theme: "Posicionamento e movimentação",
     description:
       "Descubra como se mover e se posicionar adequadamente em mapas para evitar ser eliminado e surpreender os inimigos.",
-    author: "PositioningPro",
+    author: authors[3],
     steps: [
       "https://www.youtube.com/embed/V0FZqYD57Hk?si=4gFwkCnUshrVLg9M", // Vídeo da Etapa 1
       "https://www.youtube.com/embed/IfnXZTHVQuc?si=JYKvFzBc2ZmSZNX7", // Vídeo da Etapa 2
@@ -356,7 +386,7 @@ export const valorant_courses = [
     theme: "Entendendo a economia no Valorant",
     description:
       "Aprenda a gerenciar sua economia e tomar decisões inteligentes sobre compras durante as rodadas.",
-    author: "Economist",
+    author: authors[3],
     steps: [
       "https://www.youtube.com/embed/V0FZqYD57Hk?si=4gFwkCnUshrVLg9M", // Vídeo da Etapa 1
       "https://www.youtube.com/embed/IfnXZTHVQuc?si=JYKvFzBc2ZmSZNX7", // Vídeo da Etapa 2
@@ -368,7 +398,7 @@ export const valorant_courses = [
     theme: "Leitura de jogo: Prevendo o inimigo",
     description:
       "Desenvolva a habilidade de prever as ações dos adversários e se antecipar a jogadas inimigas.",
-    author: "GameReader",
+    author: authors[3],
     steps: [
       "https://www.youtube.com/embed/V0FZqYD57Hk?si=4gFwkCnUshrVLg9M", // Vídeo da Etapa 1
       "https://www.youtube.com/embed/IfnXZTHVQuc?si=JYKvFzBc2ZmSZNX7", // Vídeo da Etapa 2
@@ -376,4 +406,3 @@ export const valorant_courses = [
     ],
   },
 ];
-

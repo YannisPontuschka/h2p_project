@@ -32,7 +32,7 @@ export const games_list = [
     name: "League of Legends",
     image: leaguelegendsimage,
     description:
-      "League of Legends é um dos jogos de estratégia em tempo real mais populares do mundo, onde cada partida é uma nova aventura em um campo de batalha de 5 contra 5. Escolha entre uma vasta gama de campeões, cada um com habilidades únicas e funções específicas, para formar uma equipe imbatível. Seu objetivo? Destruir o Nexus inimigo! Mas não se deixe enganar; a vitória não vem apenas da habilidade individual, mas da sinergia e comunicação com seu time. Aprenda a artimanha de cada campeão e desenvolva táticas que farão você e sua equipe se destacarem nas Lanes e na selva!",
+      "League of Legends é um dos jogos de estratégia em tempo real mais populares do mundo, onde cada partida é é baseada em um campo de batalha de 5 contra 5.",
     courses: lol_courses,
     terminology: lol_terminologies,
   },
@@ -41,7 +41,7 @@ export const games_list = [
     name: "Valorant",
     image: valorantimage,
     description:
-      "Valorant é um jogo de tiro tático que combina a precisão de um FPS com as habilidades especiais de personagens, conhecidos como 'Agentes'. Aqui, cada partida é uma disputa estratégica onde a comunicação e o trabalho em equipe são essenciais. Prepare-se para usar sua mira afiada e habilidades únicas para desarmar a bomba ou eliminar a equipe adversária. Valorant oferece uma experiência de jogo que requer tanto raciocínio tático quanto habilidade de atirador. Pratique suas estratégias e descubra como cada agente pode influenciar o jogo, tornando cada partida uma experiência única e emocionante!",
+      "Valorant é um jogo de tiro tático que combina a precisão de um FPS com as habilidades especiais de personagens, conhecidos como 'Agentes'.",
     courses: valorant_courses,
     terminology: valorant_terminologies,
   },
@@ -50,7 +50,7 @@ export const games_list = [
     name: "Counter Strike 2",
     image: cs2image,
     description:
-      "Counter Strike 2 é a mais nova versão do clássico jogo de tiro em primeira pessoa que redefiniu o gênero. Aqui, você entra em combate com equipes de terroristas e contra-terroristas em mapas desafiadores. A comunicação e a estratégia são fundamentais para garantir a vitória em intensos combates multiplayer. Use uma variedade de armas e táticas para completar objetivos e dominar seus oponentes. Com gráficos aprimorados e novas mecânicas de jogo, Counter Strike 2 mantém a essência que conquistou milhões de fãs ao redor do mundo. Prepare-se para afinar sua mira e mostrar suas habilidades em cada partida!",
+      "Counter Strike 2 é a mais nova versão do clássico jogo de tiro em primeira pessoa que redefiniu o gênero. Aqui, você entra em combate com equipes de terroristas e contra-terroristas.",
     courses: cs_courses,
     terminology: cs2_terminologies,
   },

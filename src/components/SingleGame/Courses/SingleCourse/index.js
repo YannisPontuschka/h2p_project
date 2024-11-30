@@ -31,6 +31,11 @@ function SingleCourse() {
     setShowPopup(!showPopup);
   };
 
+  // Força a rolagem para o topo ao carregar o componente
+  useEffect(() => {
+    window.scrollTo(0, 0); // Rola para o topo da página
+  }, []);
+
   // Atualiza o Local Storage quando os comentários mudam
   useEffect(() => {
     if (courseId) {
@@ -64,7 +69,7 @@ function SingleCourse() {
         <div style={{ display: "flex", justifyContent: "space-around" }}>
           <h1 id="course-theme">{course?.theme}</h1>
           <div id="author-name" onClick={togglePopup}>
-            How2Player: {course?.author}
+            How2Player: {course?.author.name}
           </div>
         </div>
         <div id="course-description">{course?.description}</div>
@@ -97,8 +102,8 @@ function SingleCourse() {
                     <strong>Pergunta:</strong> {comment.text}
                   </div>
                   <div className="author-response">
-                    <strong>Resposta de {course?.author}:</strong> Sem resposta
-                    ainda
+                    <strong>Resposta de {course?.author.name}:</strong> Sem
+                    resposta ainda
                   </div>
                 </div>
               ))}
@@ -128,9 +133,14 @@ function SingleCourse() {
       {showPopup && (
         <div className="popup-overlay" onClick={togglePopup}>
           <div className="popup">
-            <h3>{course?.author}</h3>
-            <p>Expertise em Overwatch e Marvel Rivals.</p>
-            <p>discord: _yax</p>
+            <img
+              id="profile_picture"
+              src={course?.author.photo}
+              alt={`Foto de ${course?.author.name}`}
+            />
+            <h3>{course?.author.name}</h3>
+            <p>{course?.author.description}</p>
+            <p>Discord: {course?.author.discord}</p>
             <button onClick={togglePopup}>Fechar</button>
           </div>
         </div>

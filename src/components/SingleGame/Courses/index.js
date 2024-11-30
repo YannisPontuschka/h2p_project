@@ -11,7 +11,7 @@ function Courses({courses}) {
             <Link to={`course/${course.id}`} className="course-link">
               <div className="course-signature">
                 <h3>{course.theme}</h3>
-                <h4>How2Player: {course.author}</h4>
+                <h4>How2Player: {course.author.name}</h4>
               </div>
             </Link>
               <p id="course-description">{course.description}</p>
