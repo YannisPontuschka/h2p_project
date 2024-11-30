@@ -23,7 +23,7 @@ export const games_list = [
     name: "Overwatch 2",
     image: overwatchimage,
     description:
-      "Overwatch 2 é uma emocionante sequência do icônico jogo de tiro em equipe, onde a cooperação é a chave para a vitória! Neste jogo, você se junta a uma equipe de heróis únicos, cada um com habilidades especiais e estilos de combate distintos. Prepare-se para explorar mapas vibrantes enquanto participa de intensas batalhas online. Com novos modos de jogo e uma narrativa envolvente, Overwatch 2 não é apenas sobre disparos, mas sobre estratégia e trabalho em equipe. Aprenda a dominar seus heróis favoritos e a coordenar com seus amigos para derrotar o time adversário e salvar o mundo!",
+      "Overwatch 2 é uma mescla entre MOBA e FPS, onde a cooperação é a chave para a vitória! Aprenda a dominar conceitos fundamentais para dominar suuas futuras partidas!",
     courses: ow_courses,
     terminology: ow_terminologies,
   },

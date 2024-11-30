@@ -6,14 +6,32 @@
   align-items: center; /* Centraliza os itens horizontalmente */
 }
 
+ .single-course-section .line {
+   height: 2px;
+   background-color: white;
+ }
+
 .single-course-section #course-theme {
+  display: flex;
+  align-items: center;
   margin: 20px 0;
-  font-size: calc(40px + 2vw);
+  font-size: calc(32px + 2vw);
 }
 
 .single-course-section #author-name {
-  margin: 10px; 
-  font-size: calc(10px + 2vw);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(6, 136, 201);
+  font-size: 40px;
+  cursor: pointer;
+}
+.single-course-section #author-name:hover {
+  background-color: rgb(81, 5, 132);
+  transition: 0.5s;
 }
 
 .single-course-section #course-description {
@@ -22,24 +40,26 @@
   font-style: italic;
   margin: 30px;
   padding: 30px;
-  border: dotted 3px;
   font-size: calc(30px + 0.5vw);
 }
 
 .single-course-section #course-content {
   display: flex;
   justify-content: space-around;
-  flex-direction: column; /* Muda para coluna para melhor alinhamento */
-  align-items: center; /* Centraliza os itens */
+  flex-direction: column; 
+  align-items: center; 
 }
 
 .single-course-section #course-steps {
   display: flex;
   justify-content: space-around;
-  align-items: center; /* Alinhe os itens ao topo */
+  align-items: center; 
   width: 90%;
-  height: 200px; /* Altura fixa para o contêiner #course-steps */
+  height: 200px; 
   gap: 2%;
+}
+#course-steps {
+  margin-top: 40px;
 }
 
 #course-steps .step {
@@ -59,18 +79,149 @@
   background-color: rgb(105, 152, 234); /* Cor diferente quando ativo */
 }
 
+.step_description {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 .video-container {
   position: relative;
-  width: 100%; 
-  max-width: 1200px;
-  height: 675px;
+  max-width: 100%;
+  width: 50%;
+  max-height: 800px;
   margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .video-container iframe {
-  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+
+.step-discussion {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 500px;
+  width: 100%;
+}
+
+.step_description #details {
+  margin-left: 20px;
+}
+
+.step_description #title {
+  font-size: calc(16px + 1vw);
+  font-style: italic;
+  text-align: center;
+}
+
+.comments {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comment {
+  text-wrap: wrap;
+  font-size: calc(10px + 1vw);
+  text-align: left;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: color(srgb rgba(78, 7, 149, 0.139) green blue);
+}
+
+.comment .user-question {
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.comment .author-response {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.comment .response-form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-comment {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 200px;
+}
+
+.add-comment textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+
+.add-comment button {
+  width: 100px;
+  height: 100px;
+  align-self: flex-end;
+  padding: 8px 16px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-comment button:hover {
+  background-color: #3700b3;
+}
+
+/* Estilo para o pop-up */
+.popup-overlay {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup {
+  background-color: rgb(0, 16, 134);
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.popup button {
+  background-color: #3700b3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #6200ea;
 }
